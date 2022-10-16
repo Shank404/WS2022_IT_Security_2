@@ -1,0 +1,110 @@
+import java.util.HashMap;
+
+public class ConverterTables {
+
+	HashMap<Character, String> hexBin = new HashMap<>();
+	HashMap<String, Character> binHex = new HashMap<>();
+	HashMap<String, String> binBase64 = new HashMap<>();
+
+	public ConverterTables() {
+		hexBin.put('0', "0000");
+		hexBin.put('1', "0001");
+		hexBin.put('2', "0010");
+		hexBin.put('3', "0011");
+		hexBin.put('4', "0100");
+		hexBin.put('5', "0101");
+		hexBin.put('6', "0110");
+		hexBin.put('7', "0111");
+		hexBin.put('8', "1000");
+		hexBin.put('9', "1001");
+		hexBin.put('a', "1010");
+		hexBin.put('b', "1011");
+		hexBin.put('c', "1100");
+		hexBin.put('d', "1101");
+		hexBin.put('e', "1110");
+		hexBin.put('f', "1111");
+
+		binHex.put("0000", '0');
+		binHex.put("0001", '1');
+		binHex.put("0010", '2');
+		binHex.put("0011", '3');
+		binHex.put("0100", '4');
+		binHex.put("0101", '5');
+		binHex.put("0110", '6');
+		binHex.put("0111", '7');
+		binHex.put("1000", '8');
+		binHex.put("1001", '9');
+		binHex.put("1010", 'a');
+		binHex.put("1011", 'b');
+		binHex.put("1100", 'c');
+		binHex.put("1101", 'd');
+		binHex.put("1110", 'e');
+		binHex.put("1111", 'f');
+
+		binBase64.put("000000", "A");
+		binBase64.put("000001", "B");
+		binBase64.put("000010", "C");
+		binBase64.put("000011", "D");
+		binBase64.put("000100", "E");
+		binBase64.put("000101", "F");
+		binBase64.put("000110", "G");
+		binBase64.put("000111", "H");
+		binBase64.put("001000", "I");
+		binBase64.put("001001", "J");
+		binBase64.put("001010", "K");
+		binBase64.put("001011", "L");
+		binBase64.put("001100", "M");
+		binBase64.put("001101", "N");
+		binBase64.put("001110", "O");
+		binBase64.put("001111", "P");
+		binBase64.put("010000", "Q");
+		binBase64.put("010001", "R");
+		binBase64.put("010010", "S");
+		binBase64.put("010011", "T");
+		binBase64.put("010100", "U");
+		binBase64.put("010101", "V");
+		binBase64.put("010110", "W");
+		binBase64.put("010111", "X");
+		binBase64.put("011000", "Y");
+		binBase64.put("011001", "Z");
+		binBase64.put("011010", "a");
+		binBase64.put("011011", "b");
+		binBase64.put("011100", "c");
+		binBase64.put("011101", "d");
+		binBase64.put("011110", "e");
+		binBase64.put("011111", "f");
+		binBase64.put("100000", "g");
+		binBase64.put("100001", "h");
+		binBase64.put("100010", "i");
+		binBase64.put("100011", "j");
+		binBase64.put("100100", "k");
+		binBase64.put("100101", "l");
+		binBase64.put("100110", "m");
+		binBase64.put("100111", "n");
+		binBase64.put("101000", "o");
+		binBase64.put("101001", "p");
+		binBase64.put("101010", "q");
+		binBase64.put("101011", "r");
+		binBase64.put("101100", "s");
+		binBase64.put("101101", "t");
+		binBase64.put("101110", "u");
+		binBase64.put("101111", "v");
+		binBase64.put("110000", "w");
+		binBase64.put("110001", "x");
+		binBase64.put("110010", "y");
+		binBase64.put("110011", "z");
+		binBase64.put("110100", "0");
+		binBase64.put("110101", "1");
+		binBase64.put("110110", "2");
+		binBase64.put("110111", "3");
+		binBase64.put("111000", "4");
+		binBase64.put("111001", "5");
+		binBase64.put("111010", "6");
+		binBase64.put("111011", "7");
+		binBase64.put("111100", "8");
+		binBase64.put("111101", "9");
+		binBase64.put("111110", "+");
+		binBase64.put("111111", "/");
+	}
+
+}
